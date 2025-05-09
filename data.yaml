@@ -1,0 +1,13 @@
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 7
+names: ['0- BDA', '1- BGD', '2- BRD', '3- FDS', '4- HF', '5- PD', '6- WTD']
+
+roboflow:
+  workspace: zvki
+  project: fdd-ulpcs
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zvki/fdd-ulpcs/dataset/2
